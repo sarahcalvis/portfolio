@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 
 import Header from '../components/Header.js'
 import Introduction from '../components/Introduction.js'
@@ -10,6 +10,8 @@ import Values from '../components/Values.js'
 import Footer from '../components/Footer.js'
 
 export default function Home() {
+  useEffect(() => { document.title = 'Sarah Calvis' }, []);
+
   return (
     <div>
       <Header />
