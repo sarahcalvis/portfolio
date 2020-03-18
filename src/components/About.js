@@ -5,9 +5,21 @@ export default function About() {
     <div id='section' >
       <div id='vertical-center' >
         <h2>About</h2>
-        <p>Work summary</p>
-        <p>Values summary</p>
-        <p>Personal Interests</p>
+        <p>
+          I began coding with Java when I was in high school.
+          Now, I am a Computer Science student at Grove City College. 
+          When I graduate in May, I will work at Quadax in Middleburg Heights, Ohio.
+        </p>
+        <p>
+          Programming is fun to me because code is a craft as much as it is a logic exercise.
+          Software development is a way to serve others by making all sorts of tasks more efficient.
+          I am thrilled to think about all the ways that effective software can further human flourishing!
+        </p>
+        <p>
+          When I am not coding, I enjoy reading old books,
+          spending time with my four little sisters,
+          and long walks in the beautiful Midwest.
+        </p>
       </div>
     </div>
   )

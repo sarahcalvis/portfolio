@@ -11,17 +11,17 @@ export default function Introduction() {
         <h2>Hey, thanks for stopping by!</h2>
         <p>I'm Sarah Calvis, a software developer in Cleveland, Ohio.</p>
         <div id='horizontal'>
-          <div id='img-padding'>
+          <div id='col-padding'>
             <a href='mailto:sarahcalvis@gmail.com'>
               <img alt="Email" src={Email} />
             </a>
           </div>
-          <div id='img-padding'>
+          <div id='col-padding'>
             <a href='https://www.github.com/sarahcalvis' target='_blank' rel='noopener noreferrer'>
               <img alt="GitHub" src={GitHub} />
             </a>
           </div>
-          <div id='img-padding'>
+          <div id='col-padding'>
             <a href='https://www.linkedin.com/in/sarah-calvis-6aba91150' target='_blank' rel='noopener noreferrer'>
               <img alt="LinkedIn" src={LinkedIn} />
             </a>

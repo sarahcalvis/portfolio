@@ -6,9 +6,15 @@ export default function Skills() {
       <div id='vertical-center' >
         <h2>Skills</h2>
         <div id='horizontal'>
-          <p>Languages</p>
-          <p>Libraries</p>
-          <p>Tools</p>
+          <div id='col-padding'>
+            <p>Languages</p>
+          </div>
+          <div id='col-padding'>
+            <p>Libraries</p>
+          </div>
+          <div id='col-padding'>
+            <p>Tools</p>
+          </div>
         </div>
       </div>
     </div>
