@@ -1,5 +1,7 @@
 import React from 'react';
 
+import Tags from './Tags.js';
+
 let jobs = [
   {
     title: 'Junior Application Support Developer',
@@ -36,18 +38,12 @@ let jobs = [
   }
 ]
 
-const getSkills = (skills) => {
-  return skills.map((skill) => { 
-    return <button>{skill}</button>
-  })
-}
-
 let experience = jobs.map((job) => {
   return <div>
     <h4>{job.title}</h4>
     <h5>{job.company} - {job.location} - {job.duration}</h5>
     <p>{job.description}</p>
-    {getSkills(job.skills)}
+    <Tags skills={job.skills} />
   </div>
 })
 
