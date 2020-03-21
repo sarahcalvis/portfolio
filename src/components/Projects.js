@@ -94,10 +94,10 @@ let projects = projectsList.map((project) => {
 export default function Projects() {
   return (
     <div id='section' >
-      <div id='vertical-center' >
+      {/* <div id='vertical-center' > */}
         <h2>Projects</h2>
         {projects}
-      </div>
+      {/* </div> */}
     </div>
   )
 }
