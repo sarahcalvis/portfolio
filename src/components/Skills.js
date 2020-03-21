@@ -13,7 +13,6 @@ let skills = [
   'Kotlin',
   'Swift',
   'SQL',
-  'Firebase',
   'REST APIs',
   'Firebase',
   'Web',
