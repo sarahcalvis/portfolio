@@ -7,18 +7,35 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-img {
-  height: 30px;
-  padding: 0;
-  margin: 0;
+#cover-icon {
+  height: 2rem;
 }
 
-p {
-  font-size: 16pt;
+#padding-div {
+  padding-bottom: 2rem;
 }
+
+/* p {
+  font-size: 16pt;
+} */
 
 h3, h6, h5, h4 {
   margin-bottom: -1rem;
+}
+
+button {
+  background-color: #FFF;
+  border: 2px solid #990033;
+  color: #990033;
+  border-radius: 5px;
+  margin-right: .5rem;
+  /* padding: 15px 32px; */
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  monospace;
 }
 
 #col-padding {
@@ -30,13 +47,13 @@ h3, h6, h5, h4 {
   min-height: 100vh;
 }
 
-#vertical-center {
+/* #vertical-center {
   margin: 0;
   position: absolute;
   top: 50%;
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
-}
+} */
 
 #horizontal {
   display: flex;

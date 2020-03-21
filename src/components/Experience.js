@@ -39,7 +39,7 @@ let jobs = [
 ]
 
 let experience = jobs.map((job) => {
-  return <div>
+  return <div id='padding-div'>
     <h4>{job.title}</h4>
     <h6>{job.company} - {job.location} - {job.duration}</h6>
     <p>{job.description}</p>

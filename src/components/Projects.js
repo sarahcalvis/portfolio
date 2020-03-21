@@ -70,7 +70,7 @@ let projectsList = [
 ]
 
 let projects = projectsList.map((project) => {
-  return <div>
+  return <div id='padding-div'>
     <div id='horizontal'>
       <div id='col-padding'>
         <h4>{project.name}</h4>
