@@ -77,12 +77,12 @@ let projects = projectsList.map((project) => {
       </div>
       <div id='col-padding'>
         {project.link ? <a href={project.link} target='_blank' rel='noopener noreferrer'>
-          <img alt="Link" src={Link} />
+          <img alt="Link" src={Link} id='project-icon' />
         </a> : ''}
       </div>
       <div id='col-padding'>
         <a href={project.github} target='_blank' rel='noopener noreferrer'>
-          <img alt="Github" src={GitHub} />
+          <img alt="Github" src={GitHub} id='project-icon' />
         </a>
       </div>
     </div>

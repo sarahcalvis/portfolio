@@ -24,16 +24,17 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-
-
 #cover-icon {
   height: 2rem;
+}
+
+#project-icon {
+  height: 1.25rem;
 }
 
 #padding-div {
   padding-bottom: 2rem;
 }
-
 
 h3, h6, h5, h4 {
   margin-bottom: -1rem;
@@ -79,7 +80,7 @@ button {
 }
 
 #footer {
-  background-color: #6dcfff;
+  background-color: #bae8ff;
   padding-left: 5rem;
   position: absolute;
   left:0;
