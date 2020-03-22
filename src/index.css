@@ -7,11 +7,11 @@
 }
 
 ::selection {
-  background: #37687f; /* WebKit/Blink Browsers */
+  background: #37687f; 
   color: #fff;
 }
 ::-moz-selection {
-  background: #37687f; /* Gecko Browsers */
+  background: #37687f; 
   color: #fff;
 }
 
@@ -34,9 +34,6 @@ body {
   padding-bottom: 2rem;
 }
 
-/* p {
-  font-size: 16pt;
-} */
 
 h3, h6, h5, h4 {
   margin-bottom: -1rem;
@@ -95,6 +92,5 @@ button {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  /* font-size: calc(10px + 2vmin); */
   color: #000;
 }
