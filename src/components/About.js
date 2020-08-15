@@ -6,9 +6,7 @@ export default function About() {
       <div id='vertical-center' >
         <h2>About</h2>
         <p>
-          I began coding with Java when I was in high school.
-          Now, I am a Computer Science student at Grove City College. 
-          When I graduate in May, I will work at Quadax in Middleburg Heights, Ohio.
+          I am a software developer at Quadax in Middleburg Heights, Ohio with a bachelor's degree in computer science at Grove City College.
         </p>
         <p>
           Programming is fun to me because code is a craft as much as it is a logic exercise.

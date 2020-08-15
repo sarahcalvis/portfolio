@@ -6,11 +6,11 @@ let jobs = [
   {
     title: 'Junior Application Support Developer',
     company: 'Quadax, Inc.',
-    duration: 'Beginning June 2020',
+    duration: 'June 2020 - Present',
     location: 'Middleburg Heights, Ohio',
-    description: 'I am very excited to begin work at Quadax after I graduate in May 2020!',
+    description: 'In my role at Quadax, I work as a developer for our products with an emphasis on supporting and maintaining our applications.',
     skills: [
-      'C#',
+      // 'C#',
     ]
   },
   {
@@ -28,12 +28,12 @@ let jobs = [
       'The most challenging and rewarding part was learning Vue Native, ' +
       'a new platform with few reference materials available.',
     skills: [
-      'Jira',
-      'Git',
-      'Vue Native',
-      'JavaScript',
-      'Amazon Web Services',
-      'Go'
+      // 'Jira',
+      // 'Git',
+      // 'Vue Native',
+      // 'JavaScript',
+      // 'Amazon Web Services',
+      // 'Go'
     ]
   }
 ]
