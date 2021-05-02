@@ -8,6 +8,7 @@ export default function Introduction() {
   return (
     <div id='section' >
       <div id='vertical-center' >
+        <h1/>
         <h2>Hey, thanks for stopping by!</h2>
         <p>I'm Sarah Calvis, a software developer in Cleveland, Ohio.</p>
         <div id='horizontal'>

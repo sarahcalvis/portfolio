@@ -61,17 +61,24 @@ button {
 }
 
 #section {
+  left: 5%;
+  right: 5%;
+  top:30%;
+  padding-top:5rem;
+  bottom:5%;
   position: relative;
   min-height: 100vh;
+  overflow: visible;
 }
 
-#vertical-center {
+/*#vertical-center {
   margin: 0;
-  position: absolute;
+  position: sticky;
   top: 50%;
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
-}
+  overflow: visible;
+} */
 
 #horizontal {
   display: flex;

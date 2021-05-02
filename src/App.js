@@ -7,7 +7,7 @@ import Projects from './components/Projects.js'
 import Footer from './components/Footer.js'
 
 function App() {
-  useEffect(() => { document.title = 'Sarah Calvis - Software Developer - Cleveland' }, []);
+  useEffect(() => { document.title = 'Sarah Calvis | Software Developer | Cleveland' }, []);
 
   return (
     <div className="App">
